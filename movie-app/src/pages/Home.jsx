@@ -21,6 +21,8 @@ const Home = () => {
              } finally {
                 setLoading(false)
              }
-        }
+        };
+
+        loadMovies();
     }, []);
 }
