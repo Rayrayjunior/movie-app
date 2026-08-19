@@ -1,8 +1,8 @@
-const API_KEY = import.meta.env.VITE_MOVIES;
+const API_URL = import.meta.env.VITE_MOVIES;
 
 export const movieData = async () => {
 
-    const response = await fetch(API_KEY);
+    const response = await fetch(API_URL);
 
     if (!response.ok) {
         throw new Error("Failed");
