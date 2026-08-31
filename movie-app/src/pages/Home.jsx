@@ -25,4 +25,21 @@ const Home = () => {
 
         loadMovies();
     }, []);
+
+
+    return(
+        <div>
+            <h1>Movies</h1>
+
+            {loading && <p>Loading...</p>}
+
+            {error && <p>{error}</p>}
+
+            {movies.map((movie) => (
+                <div key={movie.show.id}>
+                    <h2>{movie.show.name}</h2>
+                </div>
+                ))}      
+        </div>
+    )
 }
