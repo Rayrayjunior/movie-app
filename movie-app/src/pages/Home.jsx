@@ -1,5 +1,5 @@
 import { useState, useEffect} from 'react'
-import { fetchData } from "../API/API"
+import { movieData } from "../API/API"
 
 const Home = () => {
 
@@ -14,8 +14,8 @@ const Home = () => {
             try {
                 setLoading(true);
 
-                const article = await fetchData();
-                setMovies(article)
+                const MovieData = await fetchData();
+                setMovies(MovieData)
 
             } catch (err) {
                 setError("Not Found")

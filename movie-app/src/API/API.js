@@ -5,7 +5,7 @@ export const movieData = async () => {
     const response = await fetch(API_URL);
 
     if (!response.ok) {
-        throw new Error("Failed");
+        throw new Error(`API Error: ${response.status} ${response.statusText}`);
     }
 
     const data = await response.json();
