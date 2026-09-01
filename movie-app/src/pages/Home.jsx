@@ -14,7 +14,7 @@ const Home = () => {
             try {
                 setLoading(true);
 
-                const MovieData = await fetchData();
+                const MovieData = await movieData();
                 setMovies(MovieData)
 
             } catch (err) {
