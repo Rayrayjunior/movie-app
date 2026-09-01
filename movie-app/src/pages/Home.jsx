@@ -38,6 +38,8 @@ const Home = () => {
             {movies.map((movie) => (
                 <div key={movie.show.id}>
                     <h2>{movie.show.name}</h2>
+                    <h2>{movie.show.weight}</h2>
+                    <h2>{movie.show.genres}</h2>
                 </div>
                 ))}      
         </div>
