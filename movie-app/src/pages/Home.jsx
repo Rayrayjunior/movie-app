@@ -1,4 +1,5 @@
 import { useState, useEffect} from 'react'
+import { fetchData } from "../API/API"
 
 const Home = () => {
 
