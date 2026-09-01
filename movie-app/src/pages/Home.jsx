@@ -1,4 +1,4 @@
-import { useState, useEffect, useMemo } from "react";
+import { useState, useEffect} from 'react'
 
 const Home = () => {
 
@@ -29,7 +29,6 @@ const Home = () => {
 
     return(
         <div>
-            <h1>Movies</h1>
 
             {loading && <p>Loading...</p>}
 
@@ -43,3 +42,5 @@ const Home = () => {
         </div>
     )
 }
+
+export default Home;
