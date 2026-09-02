@@ -4,7 +4,7 @@ const Actors = () => {
 
     const [actorsdata, setActordata] = useState([]);
     const [loading, setLoading] = useState(true);
-    const [error, setError] = useError(null);
+    const [error, setError] = useState(null);
 
 
 
@@ -29,7 +29,7 @@ const Actors = () => {
         loadActors();
     }, []);
 
-    
+
 }
 
 export default Actors;
