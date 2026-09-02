@@ -4,7 +4,6 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 import App from "./App";
 import Home from "./pages/Home";
-import Actordetails from "./pages/Actordetails";
 import Actors from "./pages/Actors";
 import Animation from "./pages/Animations";
 import Tvshows from "./pages/Tvshows";
@@ -18,10 +17,6 @@ const router = createBrowserRouter([
             {
                 index: true,
                 element: <Home />
-            },
-            {
-                path: "actordetails",
-                element: <Actordetails />
             },
             {
                 path: "actors",
