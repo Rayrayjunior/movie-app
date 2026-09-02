@@ -7,6 +7,7 @@ import Home from "./pages/Home";
 import Actordetails from "./pages/Actordetails";
 import Actors from "./pages/Actors";
 import Animation from "./pages/Animations";
+import Movies from "./pages/Movies";
 
 const router = createBrowserRouter([
     {
@@ -29,6 +30,10 @@ const router = createBrowserRouter([
             {
                 path: "animation",
                 element: <Animation />
+            },
+            {
+                path: "movies",
+                element: <Movies />
             }
         ]
     }
