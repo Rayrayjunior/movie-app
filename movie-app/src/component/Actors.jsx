@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import { movieData } from "../API/API";
 
 const Actors = () => {
 
