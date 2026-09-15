@@ -1,3 +1,6 @@
+import { movieData } from "../API/API";
+
+
 const Movies = () => {
     return (
         <div>
