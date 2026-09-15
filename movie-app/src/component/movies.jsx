@@ -1,3 +1,4 @@
+import { useEffect, useMemo } from 'react'
 import { movieData } from "../API/API";
 
 
