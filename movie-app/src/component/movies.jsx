@@ -35,8 +35,10 @@ const Movies = () => {
 
     return (-
         <div>
-            {moviesData.map((item) => (
-                <p key={item.id}>{item.name}</p>
+            {moviesData.map((movie) => (
+                <div key={movie.name.id}>
+                    <h2>{movie.show.name}</h2>
+                </div>
             ))}
         </div>
     );
