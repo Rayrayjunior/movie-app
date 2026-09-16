@@ -35,7 +35,9 @@ const Movies = () => {
 
     return (-
         <div>
-            <h1>Movies</h1>
+            {moviesData.map((item) => (
+                <p key={item.id}>{item.name}</p>
+            ))}
         </div>
     );
 };
