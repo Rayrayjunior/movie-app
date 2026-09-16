@@ -4,6 +4,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 import App from "./App";
 import Home from "./pages/Home";
+import Movies from "./component/movies";
 import Actors from "./pages/Actors";
 import Animation from "./pages/Animations";
 import Tvshows from "./pages/Tvshows";
